@@ -18,11 +18,13 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
+        <SourceLocation DefaultValue="https://<your web server>/app/read/Home/Home.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
+        <SourceLocation DefaultValue="https://<your web server>/app/compose/Home/Home.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -35,4 +37,3 @@
   </Rule>
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
 </OfficeApp>
-
